@@ -1,0 +1,129 @@
+ex1():
+import java.util.Scanner;
+class HelloWorld
+{
+    public void Targil1()
+    {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter your name");
+        String name= scan.nextLine();
+        System.out.println("Hello" + " " + name);
+    }
+    public static void main(String[] args) 
+    {
+        HelloWorld ex1 = new HelloWorld();
+        ex1.Targil1();
+    }
+}
+
+ex2():
+class HelloWorld
+{
+    public void Targil2(int num)
+    {
+        int z=num/5;
+        System.out.println(z);
+    }
+    public static void main(String[] args) 
+    {
+        HelloWorld ex2 = new HelloWorld();
+        ex2.Targil2(17);
+    }
+}
+
+ex3():
+class HelloWorld
+{
+    public int Targil3(int num1, int num2)
+    {
+        return (num1*num2);
+    }
+    public static void main(String[] args) 
+    {
+        HelloWorld ex3 = new HelloWorld();
+        int z = ex3.Targil3(10,6);
+        System.out.println(z);
+    }
+}
+
+ex4():
+class HelloWorld
+{
+    public double Targil4(int x, int y, int z)
+    {
+        double sum = x+y+z;
+        double avg=sum/3;
+        System.out.println(sum);
+        return avg;
+    }
+    public static void main(String[] args) 
+    {
+        HelloWorld ex4 = new HelloWorld();
+        double z = ex4.Targil4(10,6,9);
+        System.out.println(z);
+    }
+}
+
+ex5():
+class HelloWorld
+{
+    public void Targil5(double radius)
+    {
+        double Area = 3.14 * radius * radius;
+        double Perimeter = 2 * 3.14 * radius;
+        System.out.println(Area + " and " + Perimeter);
+    }
+    public static void main(String[] args) 
+    {
+        HelloWorld ex5 = new HelloWorld();
+        ex5.Targil5(5.5);
+    }
+}
+
+ex6():
+class HelloWorld
+{
+    public double Targil6(int a, int b)
+    {
+        int sum = (a*a) + (b*b);
+        double c = Math.sqrt(sum);
+        return c;
+    }
+    public static void main(String[] args) 
+    {
+        HelloWorld ex6 = new HelloWorld();
+        double z = ex6.Targil6(6,7);
+        System.out.println(z);
+    }
+}
+
+
+ex7():
+class HelloWorld
+{
+    public void Targil7(String str)
+    {
+        System.out.println(str.charAt(2) + "" + str.charAt(1) + "" + str.charAt(0));
+    }
+    public static void main(String[] args) 
+    {
+        HelloWorld ex7 = new HelloWorld();
+        ex7.Targil7("xyz");
+    }
+}
+
+ex8():
+class HelloWorld
+{
+    public int Targil8(int a, int n, int d)
+    {
+        int An = a+ (n-1) * d;
+        return An;
+    }
+    public static void main(String[] args) 
+    {
+        HelloWorld ex8 = new HelloWorld();
+        double z = ex8.Targil8(9,0,7);
+        System.out.println(z);
+    }
+}
